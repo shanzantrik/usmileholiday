@@ -1,0 +1,266 @@
+/*
+Theme Name: Travelin
+Theme URI: https://wensolutions.com/themes/travelin/
+Author: WP Travel
+Author URI: https://wptravel.io/
+Description: Travelin is an elegant, minimalistic ,fast and SEO Friendly with clean design multipurpose travel theme in Wordpress by WP Travel Plugin ( The Ultimate Tour Operator Plugin for WordPress). This theme works like a charm for all Travel bloggers, travel agencies and tour booking agencies helping them to grow their revenues and increase sales of booking because of its intresting, valuable and multi loaded features. Travelin can be integrated seamlessly with the WordPress Block editor and easily compatible with the WP Travel plugin, providing enhanced functionalities and features managing travel itineraries, bookings, trips, offers, and other travel-related features. Travelin is a fast, Easily customizable, and SEO Optimized ready theme that you can use for building any kind of travel website within minutes! So, to experience the full spectrum of Travelin theme capabilities, explore the Full Demo here: https://wpdemo.wensolutions.com/travelin/. Our Official Support Forum : https://wensolutions.com/contact/ and the complete documentation here: https://wensolutions.com/docs-category/travelin/.
+Template: wp-travel-fse
+Version: 1.0.2
+Requires at least: 6.0
+Tested up to: 6.3
+Requires PHP: 7.4
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: travelin
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, e-commerce, full-site-editing, block-patterns, full-width-template, rtl-language-support, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+
+#wptravel-block-trip-filters .wp-travel-search #wp-travel-filter-search-submit,
+.wptravel-layout-v2 #wptravel-block-trip-search form input, .wptravel-layout-v2 #wptravel-block-trip-search form select,
+#wptravel-block-trips-list.wptravel-block-wrapper.layout-one .wptravel-archive-wrapper.grid-view .wptravel-blocks-trip-card .wptravel-blocks-card-body .wptravel-blocks-card-footer .wptravel-blocks-footer-left .wptravel-blocks-trip-explore .wptravel-blocks-explore-btn,
+#wp-travel-blocks-trip-featured-category.layout-one .wp-travel-blocks-trip-featured-category-img-container,
+#wp-travel-blocks-trip-featured-category.layout-three .wp-travel-blocks-trip-featured-category-img-overlay-trip .wp-travel-blocks-trip-featured-category-footer .wp-travel-blocks-trip-info-container,
+#wp-travel-blocks-trip-featured-category.layout-three .wp-travel-blocks-trip-featured-category-img-container,
+#wptravel-block-trips-list.wptravel-block-wrapper.layout-one .wptravel-archive-wrapper.grid-view .wptravel-blocks-trip-card .wptravel-blocks-trip-card-img-container,
+#wptravel-block-trips-list.wptravel-block-wrapper.layout-one .wptravel-archive-wrapper.grid-view .wptravel-blocks-trip-card,
+#wptravel-block-trips-list.wptravel-block-wrapper.layout-one .wptravel-archive-wrapper.grid-view .wptravel-blocks-trip-card .wptravel-blocks-trip-card-img-container img{
+	border-radius: 0px;
+}
+
+#wptravel-block-trip-button:hover,
+#wptravel-block-trip-button:focus{
+	color: #fff !important;
+}
+
+.wptravel-layout-v2 #wptravel-block-trip-search form input:focus, .wptravel-layout-v2 #wptravel-block-trip-search form input:valid, .wptravel-layout-v2 #wptravel-block-trip-search form select:focus, .wptravel-layout-v2 #wptravel-block-trip-search form select:valid {
+    outline: none;
+    height: 50px;
+}
+
+.wp-block-navigation .current-menu-ancestor, .wp-block-navigation-item__content {
+    font-size: inherit !important;
+}
+
+.wp-block-comment-date a,
+.wp-block-comment-author-name a,
+#wp-travel-account a,
+.taxonomy-post_tag a,
+.taxonomy-category a{
+	text-decoration: none !important;
+}
+
+.theme-page-banner.wp-block-cover.has-custom-content-position.has-custom-content-position .wp-block-cover__inner-container {
+    width: 100%;
+}
+
+
+#wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field input,
+#wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field select {
+	border: 1px solid #ccc;
+	border-radius: 5px
+}
+
+#wptravel-block-trip-filters, .wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field label {
+    position: relative;
+}
+
+#wptravel-block-trip-filters .wp-travel-itinerary-items .wp-travel-form-field .trip-duration-calender .calender-icon {
+    position: absolute;
+    top: -34px;
+    left: 10px;
+}
+
+#wptravel-block-trip-filters .calender-icon::before {
+    top: unset;
+    right: unset;
+}
+
+#wptravel-block-trip-filters #wp-travel-filter-search-submit {
+	padding: 10px 15px;
+	line-height: 1.2;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+#wptravel-block-trip-button {
+	background-color: var(--wp--preset--color--primary) !important;
+	color: white;
+}
+
+.wp-travel-add-to-wishlists>[class*=fa-] {
+	font-size: 24px;
+	color: #ff6900;
+}
+
+#wptravel-block-trip-price .trip-price del {
+	margin-right: 0;
+	font-size: 18px;
+}
+
+.search-results .wp-block-query ul li:not(.type-itineraries) .trip-content,
+.search-results .wp-block-query ul li:not(.type-itineraries) #wptravel-wishlists-block,
+.search-results .wp-block-query ul li:not(.type-itineraries) #wptravel-block-trip-code{
+	display: none;
+}
+
+
+.wp-element-button, .wp-block-button__link {
+	box-shadow: none;
+}
+
+.travelin-single-trip-cover {
+	margin-top: -540px;
+    height: 500px;
+/*	pointer-events: none;*/
+}
+
+#travelin-sticky-sidebar-wrapper {
+	margin-top: -248px;
+    z-index: 1;
+}
+
+.wptravel-book-your-trip{
+	border-color: #1c6cff;
+    background-color: #1c6cff;
+    color: #fff;
+    padding-top: var(--wp--preset--spacing--30);
+    padding-right: var(--wp--preset--spacing--60);
+    padding-bottom: var(--wp--preset--spacing--30);
+    padding-left: var(--wp--preset--spacing--60);
+    font-size: 15px;
+}
+
+
+#travelin-sticky-sidebar {
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	position: sticky;
+    top: 50px;
+}
+
+/* End of Single Trip Cover */ 
+
+#wptravel-wishlists-block .wp-travel-add-to-wishlists i {
+	color: #1C6CFF !important;
+}
+
+#wptravel-block-trip-reviews-list #review_form .form-submit.wp-block-button .submit.wp-block-button__link.wp-element-button {
+	border-radius: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1c6cff;
+}
+
+#wptravel-block-trip-reviews-list #review_form #wp-travel_rate a {
+	text-decoration: none;
+}
+
+.wptravel-block-trip-fact .tour-info .tour-info-column {
+    width: 100%;
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+
+.position-absolute{
+ position: absolute;
+}
+
+
+#wp-travel-enquiries {
+	max-width: unset;
+}
+.wp-block-cover.alignfull.travelin-single-trip-cover.position-absolute {
+    top: 0;
+    width: 100%;
+}
+.wp-travel-calendar-view {
+    background-color: transparent;
+}
+
+.wptravel-block-trip-gallery .slick-slider .wptag__thumbnail img {
+    object-fit: cover;
+}
+.wp-travel-advanced-gallery-items-list.slick-slider {
+    margin-bottom: -10px;
+}
+
+#wptravel-block-trip-enquiry {
+    margin: auto;
+}
+
+.travel-info a:hover{
+	color: var(--wp--preset--color--primary) !important;
+}
+
+.secondary #wptravel-block-trips-list.wptravel-block-wrapper.layout-one .wptravel-archive-wrapper.grid-view .wptravel-blocks-trip-card .wptravel-blocks-card-body .wptravel-blocks-card-body-header .wptravel-blocks-card-title{
+	font-size: 18px;
+}
+
+.wptravel-block-trip-search .wp-travel-search form select, .wptravel-block-trip-search .wp-travel-search form input {
+    height: 50px;
+    padding: 16px;
+}
+
+.wp-block-post-comments-form input[type=submit],
+.wptravel-block-trip-search .wp-travel-search #wp-travel-search {
+    border-radius: 0px;
+}
+
+#theme-loader{
+	position: fixed;
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+    background: #fff;
+    z-index: 12312;
+}
+#travelin-sticky-sidebar-wrapper {
+		margin-top: -248px;
+		z-index: 1;
+}
+
+@media screen and (max-width: 1092px) {
+	#travelin-sticky-sidebar-wrapper {
+		margin-top: 0;
+		z-index: 1;
+		margin: 0 200px;
+	}
+	
+	#travelin-single-trip-content-col {
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (max-width: 798px) {
+	#travelin-sticky-sidebar-wrapper {
+		margin: 0 100px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#travelin-sticky-sidebar-wrapper {
+		margin: 0;
+	}
+	
+	.contact {
+		display: none;
+	}
+	
+	.theme-site-info {
+		justify-content: center !important;
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width: 415px) and (max-width: 992px) {
+	.wp-travel-advanced-gallery-items-list.slick-slider .wptag__thumbnail img {
+    		min-height: 150px;
+    		max-height: 500px;
+	}
+}
+
+.wptravel-block-trip-gallery .slick-slider .wptag__thumbnail img {
+    height: 500px !important;
+}
